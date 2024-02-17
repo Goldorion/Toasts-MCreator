@@ -1,0 +1,12 @@
+{
+  "id": "toasts",
+  "minversion": 202300400000,
+  "maxversion": 202300499999,
+  "javaplugin": "net.goldorion.toasts.ToastsLauncher",
+  "info": {
+    "name": "Toasts",
+    "version": "1.0",
+    "description": "Adds support for custom toasts",
+    "author": "Goldorion"
+  }
+}
