@@ -13,11 +13,10 @@ import static net.mcreator.element.ModElementTypeLoader.register;
 public class ToastsLauncher extends JavaPlugin {
 
     private static final Logger LOG = LogManager.getLogger("Toasts");
-    private static ModElementType<?> TOAST;
     public ToastsLauncher(Plugin plugin) {
         super(plugin);
 
-        addListener(PreGeneratorsLoadingEvent.class, e-> TOAST = register(new ModElementType<>("toast", 'T', ToastGUI::new, Toast.class)));
+        addListener(PreGeneratorsLoadingEvent.class, e-> register(new ModElementType<>("toast", 'T', ToastGUI::new, Toast.class)));
 
         LOG.info("Toasts plugin was loaded");
     }
