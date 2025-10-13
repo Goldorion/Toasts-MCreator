@@ -1,0 +1,1 @@
+This is the color that will be used for the description. Leave it empty to use the default color.

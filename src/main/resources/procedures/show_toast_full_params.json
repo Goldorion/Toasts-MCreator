@@ -1,0 +1,44 @@
+{
+  "args0": [
+    {
+      "type": "field_data_list_selector",
+      "name": "toast",
+      "datalist": "toasts",
+      "customEntryProviders": "toast"
+    },
+    {
+      "type": "input_value",
+      "name": "time",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "icon",
+      "check": "String"
+    },
+    {
+      "type": "field_image",
+      "src": "./res/client.png",
+      "width": 8,
+      "height": 24
+    }
+  ],
+  "inputsInline": true,
+  "colour": 120,
+  "previousStatement": null,
+  "nextStatement": null,
+  "mcreator": {
+    "toolbox_id": "guimanagement",
+    "toolbox_init": [
+      "<value name=\"time\"><block type=\"math_number\"><field name=\"NUM\">5000</field></block></value>",
+      "<value name=\"icon\"><block type=\"text\"><field name=\"TEXT\">modid:textures/screens/icon.png</field></block></value>"
+    ],
+    "fields": [
+      "toast"
+    ],
+    "inputs": [
+      "time",
+      "icon"
+    ]
+  }
+}

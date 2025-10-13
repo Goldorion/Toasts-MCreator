@@ -1,0 +1,1 @@
+If you want the title and the description to have shadows, enable this option.

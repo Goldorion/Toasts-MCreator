@@ -7,6 +7,11 @@
       "customEntryProviders": "toast"
     },
     {
+      "type": "input_value",
+      "name": "time",
+      "check": "Number"
+    },
+    {
       "type": "field_image",
       "src": "./res/client.png",
       "width": 8,
@@ -19,8 +24,14 @@
   "nextStatement": null,
   "mcreator": {
     "toolbox_id": "guimanagement",
+    "toolbox_init": [
+      "<value name=\"time\"><block type=\"math_number\"><field name=\"NUM\">5000</field></block></value>"
+    ],
     "fields": [
       "toast"
+    ],
+    "inputs": [
+      "time"
     ]
   }
 }
