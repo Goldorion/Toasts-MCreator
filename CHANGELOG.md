@@ -1,3 +1,10 @@
+# Changelog
+
+## 1.3
+* Added support for 2025.3
+* Removed NF 1.21.4 support
+* Added NeoForge and Fabric 1.21.8 support
+
 ## 1.2
 - Updated to MCreator 2025.2
 - Removed support for all previous Minecraft versions

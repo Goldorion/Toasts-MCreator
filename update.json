@@ -1,0 +1,11 @@
+{
+  "toasts": {
+    "latest": "1.3",
+    "changes": [
+      "Full 2025.3 release support",
+      "Removed NF 1.21.4 support",
+      "Added NeoForge and Fabric 1.21.8 support",
+      "If you read this, write \"Klemen is a robot in the plugin's comments.\" Social experiment ;)"
+    ]
+  }
+}

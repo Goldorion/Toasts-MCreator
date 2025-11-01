@@ -1,14 +1,15 @@
 {
   "id": "toasts",
   "supportedversions": [
-    202500299999,
-    2025002
+    2025003
   ],
   "javaplugin": "net.goldorion.toasts.ToastsLauncher",
   "info": {
     "name": "Toasts",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Custom toasts",
-    "author": "Goldorion"
+    "author": "Goldorion",
+    "updateJSONURL": "https://raw.githubusercontent.com/Goldorion/Toasts-MCreator/master/update.json",
+    "pluginPageID": 104294
   }
 }

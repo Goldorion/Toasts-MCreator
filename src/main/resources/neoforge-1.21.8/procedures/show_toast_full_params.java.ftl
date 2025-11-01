@@ -1,0 +1,1 @@
+Minecraft.getInstance().getToastManager().addToast(new ${field$toast?replace("CUSTOM:", "")}Toast(${input$time}, ResourceLocation.parse(${input$icon})));

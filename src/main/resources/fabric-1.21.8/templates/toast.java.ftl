@@ -62,9 +62,9 @@ public class ${name}Toast implements Toast {
 	
 	@Override
 	public void render(GuiGraphics guiGraphics, @NotNull Font font, long l) {
-		guiGraphics.blitSprite(RenderType::guiTextured, BACKGROUND_SPRITE, 0, 0, this.width(), this.height());
+		guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, BACKGROUND_SPRITE, 0, 0, this.width(), this.height());
 		<#if data.icon != "None">
-		guiGraphics.blit(RenderType::guiTextured, icon, 6, 6, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, icon, 6, 6, 0, 0, 20, 20, 20, 20);
 		</#if>
 		guiGraphics.drawString(font, TITLE_TEXT, 30, 7, ${data.titleColor?has_content?then(data.titleColor.getRGB(), -11534256)}, ${data.drawShadows});
 		guiGraphics.drawString(font, DESCRIPTION_TEXT, 30, 18, ${data.descriptionColor?has_content?then(data.descriptionColor.getRGB(), -16777216)}, ${data.drawShadows});
