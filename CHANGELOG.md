@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1
+- Updated to MCreator 2026.1 (2026.1.13616)
+
 ## 1.3
 * Added support for 2025.3
 * Removed NF 1.21.4 support
